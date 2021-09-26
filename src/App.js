@@ -5,9 +5,6 @@ import data from './atlas-of-remote-islands.js';
 
 function App() {
 
-let island1 = data.islands[0]
-
-
   return (
     <div>
       <div className="container">
@@ -15,12 +12,19 @@ let island1 = data.islands[0]
       </div>
       
       <div className="container">
-        <h2 className="section-title">Islands</h2>
+        <h2 className="section-title">Islands of Paradise</h2>
         <ul className="cards">
-          
+
         {data.islands.map(island => 
-        <Card name = {island.name} description = {island.description} latitude = {island.coords.lat} longitude = {island.coords.lon}/>
+        <Card name = {island.name}
+         description = {island.description}
+          latitude = {island.coords.lat}
+           longitude = {island.coords.lon}
+           region = {island.region}
+           img = {island.image}
+           website = {island.wiki}/>
       )}
+          
           
         </ul>
       </div>

@@ -8,8 +8,12 @@ function Card(props) {
     <li className="cards-item fourth">
       <div className="card">
         <div className="card-content">
-            <CardImage />
-            <CardInfo name= {props.name} description={props.description} latitude={props.latitude} longitude={props.longitude}/>
+            <CardImage image={props.image}/>
+            <CardInfo name= {props.name}
+             description={props.description}
+              latitude={props.latitude}
+               longitude={props.longitude}
+               website={props.website}/>
         </div>
       </div>
     </li>

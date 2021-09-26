@@ -1,9 +1,12 @@
 import React from 'react';
 import '../App.css';
 
-function CardImage() {
+function CardImage(props) {
   return(
-    <div className="card-image"></div>
+    
+      <img src={props.img} alt="islandphoto"></img>
+  
+    
   );
 }
 

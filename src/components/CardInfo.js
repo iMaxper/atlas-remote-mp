@@ -8,7 +8,7 @@ function CardInfo(props) {
       <div className="card-title">{props.name}</div>
       <p className="card-text description">{props.description}</p>
       <p className="card-text lat-lon">({props.latitude}, {props.longitude})</p>
-      <WikiButton />
+      <WikiButton website={props.website}/>
     </div>
   );
 }
