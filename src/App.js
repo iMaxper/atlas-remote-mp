@@ -17,14 +17,13 @@ function App() {
 
         {data.islands.map(island => 
         <Card name = {island.name}
-         description = {island.description}
-          latitude = {island.coords.lat}
-           longitude = {island.coords.lon}
-           region = {island.region}
-           img = {island.image}
-           website = {island.wiki}/>
+        description = {island.description}
+        latitude = {island.coords.lat}
+        longitude = {island.coords.lon}
+        photo = {island.image}
+        website = {island.wiki}
+        region = {data.region}/>
       )}
-          
           
         </ul>
       </div>

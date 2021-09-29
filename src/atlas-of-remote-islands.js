@@ -206,7 +206,7 @@ let data = {
     },
     {
       "name": "Christmas Island",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Christmas_Island_on_the_globe_%28Southeast_Asia_centered%29.svg/400px-Christmas_Island_on_the_globe_%28Southeast_Asia_centered%29.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Flying_Fish_Cove_at_Christmas_Island.jpg",
       "wiki": "https://en.wikipedia.org/wiki/Christmas_Island",
       "description": "The Territory of Christmas Island is an Australian external territory comprising the island of the same name. Christmas Island is located in the Indian Ocean, around 350 kilometres (220 mi) south of Java and Sumatra and around 1,550 kilometres (960 mi) north-west of the closest point on the Australian mainland. It has an area of 135 square kilometres (52 sq mi).",
       "pages": "64-65",

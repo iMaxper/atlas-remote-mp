@@ -4,7 +4,7 @@ import '../App.css';
 function CardImage(props) {
   return(
     
-      <img src={props.img} alt="islandphoto"></img>
+      <img src={props.photo} alt="islandphoto"></img>
   
     
   );
